@@ -11,12 +11,16 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
+<<<<<<< HEAD
 // appcenter
 import com.microsoft.appcenter.reactnative.appcenter.AppCenterReactNativePackage;
 // appcenter-analytics
 import com.microsoft.appcenter.reactnative.analytics.AppCenterReactNativeAnalyticsPackage;
 // appcenter-crashes
 import com.microsoft.appcenter.reactnative.crashes.AppCenterReactNativeCrashesPackage;
+=======
+
+>>>>>>> 291ac460ecc734bbe697ac8f03d947a8704b3bd3
 
 public class PackageList {
   private Application application;
@@ -61,10 +65,14 @@ public class PackageList {
 
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
+<<<<<<< HEAD
       new MainReactPackage(mConfig),
       new AppCenterReactNativePackage(getApplication()),
       new AppCenterReactNativeAnalyticsPackage(getApplication(), getResources().getString(com.rndemoapp.R.string.appCenterAnalytics_whenToEnableAnalytics)),
       new AppCenterReactNativeCrashesPackage(getApplication(), getResources().getString(com.rndemoapp.R.string.appCenterCrashes_whenToSendCrashes))
+=======
+      new MainReactPackage(mConfig)
+>>>>>>> 291ac460ecc734bbe697ac8f03d947a8704b3bd3
     ));
   }
 }
