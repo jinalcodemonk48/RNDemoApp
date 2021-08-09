@@ -1,0 +1,14 @@
+com/rndemoapp/MainActivity.java
+ com.rndemoapp.MainActivity
+com/rndemoapp/ReactNativeFlipper.java
+ com.rndemoapp.ReactNativeFlipper
+ com.rndemoapp.ReactNativeFlipper$1
+ com.rndemoapp.ReactNativeFlipper$2
+ com.rndemoapp.ReactNativeFlipper$2$1
+com/rndemoapp/BuildConfig.java
+ com.rndemoapp.BuildConfig
+com/rndemoapp/MainApplication.java
+ com.rndemoapp.MainApplication
+ com.rndemoapp.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
