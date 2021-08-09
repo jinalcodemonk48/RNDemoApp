@@ -36,8 +36,8 @@ steps:
     jarsignerKeyPassword: '$(jarsignerKeyPassword)'
     zipalign: true
 
-- script: mv src/android/app/build/outputs/apk/release/app-release-unsigned.apk ReactNativePipeline$(Build.BuildNumber).apk
-  displayName: 'Rename apk'
+- script: mv
+
 
 - task: PublishBuildArtifacts@1
   inputs:
